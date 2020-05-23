@@ -1,9 +1,10 @@
-Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,
-between 2000 and 3200 (both included).
-The numbers obtained should be printed in a comma-separated sequence on a single line.
+Python Program to Read a Number n And Print the Series “1+2+…..+n= “
 
-begin=2000
-end=3000
-for i in range(begin,end+1):
-    if(i%7==0 and i%5!=0):
-        print(i,",",end="")
+
+n=int(input("enter the no."))
+sum=0
+for i in range (1,n+1):
+    sum=sum+i
+    print(i,end="")
+    print("+",end="")
+print("=",sum)

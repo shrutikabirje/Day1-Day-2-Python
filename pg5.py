@@ -1,9 +1,18 @@
-program that grants access only to kids aged between 8-12
-using  if  else statement.
+Write python program to print the pattern given below
+Note: Take input from user
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5
 
-a=int(input("enter your age"))
-if (a>=8 and a<=12):
-    print("access granted..Welcome!",a)
-else:
-    print("access not granted..Sorry",a)
 
+
+
+n=int(input("enter the no."))
+count=0
+for i in range(1,n+1):
+    count=count+1
+    for j in range(1,i+1):
+        print(count,end=" ")
+    print("\r")

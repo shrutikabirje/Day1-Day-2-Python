@@ -1,6 +1,9 @@
-Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized.
+Write a Python program to create the multiplication table (from 1 to 10) of a number. 
 
 
-a=input("enter the lines you want to capitalize")
-print(a.upper())
 
+n=int(input("enter the no."))
+for i in range (1,n+1):
+    for l in range (1,11):
+        print(i,"x",l,"=",i*l)
+    

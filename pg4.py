@@ -1,11 +1,8 @@
-Write a program to check wheather number is even or odd using if 
-Else statement
+question-4
 
 
-
-a=int(input("enter the no.to check even or odd"))
-if (a%2==0):
-    print("the number is even",a)
-else:
-    print("the number is odd",a)
+def sum_odd(n):
+    n=pow(n,3)
+    print(n)
+sum_odd(4)
 
