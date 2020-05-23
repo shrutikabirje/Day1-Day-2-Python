@@ -3,7 +3,7 @@ between 2000 and 3200 (both included).
 The numbers obtained should be printed in a comma-separated sequence on a single line.
 
 begin=2000
-end=3000
+end=3200
 for i in range(begin,end+1):
     if(i%7==0 and i%5!=0):
         print(i,",",end="")
