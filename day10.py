@@ -4,6 +4,7 @@ Question.1
 --np.show_config()
 
 Question.2
+n=np.array([1+1j,3+2j,8,6,5.9,-0.1,0,4j])
 print(n)
 scalar=np.isscalar([9])
 scalar1=np.isscalar(7)
